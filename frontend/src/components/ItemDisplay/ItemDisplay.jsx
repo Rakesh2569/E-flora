@@ -40,7 +40,7 @@ const ItemDisplay = () => {
                             <p className="product-price">Price: &#8377; {product.price}</p>
                             {/* Pass productName as a prop to Aisearch */}
                             <button className="aibtn" onClick={toggleAIBox}>
-                                Ask AI
+                        Plant Assistant
                             </button>
                             {/* Render AI box if isAIBoxOpen is true */}
                             {isAIBoxOpen && (

@@ -15,6 +15,7 @@ import Pdit from './pages/Pdit/Pdit'
 import Search from './pages/Search/Search'
 import Blogs from './pages/Blogs/Blogs'
 import Contactus from './pages/Contactus/Contactus'
+import ErrorPage from './pages/PlaceOrder/Error'
 
 const App = () => {
 
@@ -37,6 +38,7 @@ const App = () => {
           <Route path='/order' element={<PlaceOrder />}/>
           <Route path='/myorders' element={<MyOrders />}/>
           <Route path='/verify' element={<Verify />}/>
+          <Route path='/error' element={<ErrorPage />}/>
         </Routes>
       </div>
 

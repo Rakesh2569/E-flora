@@ -7,7 +7,7 @@ const BlogItem = ({ image, title, description, link, url }) => {
     return (
         <div className='blog-item'>
             <div className='blog-item-img-container'>
-                <center><img className='blog-item-image' src={"http://localhost:4000"+ "/images/" + image} alt="Blog" /></center>
+                <center><img className='blog-item-image' src={"https://e-flora.onrender.com"+ "/images/" + image} alt="Blog" /></center>
             </div>
             <div className='blog-item-info'>
                 <h3 className='blog-item-title'>{title}</h3><br />

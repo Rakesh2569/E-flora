@@ -23,12 +23,14 @@ const Footer = () => {
             <h2>GET IN TOUCH</h2>
             <ul>
                 <li>+91 81425 69912</li>
-                <li>contact@eflora.com</li>
+                <li><a href="mailto:yerrateja2002@gmail.com">contact@eflora.com</a></li>
             </ul>
             <div className="footer-social-icons">
-                <img src={assets.facebook_icon} alt="" />
-                <img src={assets.twitter_icon} alt="" />
-                <img src={assets.linkedin_icon} alt="" />
+            <a href="https://www.facebook.com/people/E-Flora/pfbid0Jj7onNVVK7D37T26nErUYMCoZwH1A4zAnaxPPJaeRTky4cyNErmwMzc4JpGyjwaGl/?mibextid=qi2Omg&rdid=r9vVx9lEVEjXILmk" target="_blank" rel="noopener noreferrer"><img src={assets.facebook_icon} alt="" /></a>
+  <a href="#" target="_blank" rel="noopener noreferrer"><img src={assets.twitter_icon} alt="" /></a>
+  <a href="https://www.instagram.com/e_flora55?utm_source=qr&igsh=amx0MDA3dDF2MXZm" target="_blank" rel="noopener noreferrer">
+    <img src={assets.linkedin_icon} alt="" />
+  </a>
             </div>
         </div>
       </div>
